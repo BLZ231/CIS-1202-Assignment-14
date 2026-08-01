@@ -1,5 +1,3 @@
-/*
-
 #include "car.h"
 #include "vehicle.h"
 
@@ -20,5 +18,3 @@ void car::displayInfo() const {
     vehicle::displayInfo();
     cout << "Number of Doors: " << numOfDoors << endl;
 }
-
-*/

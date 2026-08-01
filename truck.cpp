@@ -1,5 +1,3 @@
-/*
-
 #include "truck.h"
 #include "vehicle.h"
 
@@ -8,11 +6,11 @@ truck::truck(string manufacturer, int yearBuilt, int towCapacity)
         this->towCapacity = towCapacity;
     }
 
-int truck::gettowCapacity() const {
+int truck::getTowCapacity() const {
     return towCapacity;
 }
 
-void truck::settowCapacity(int towCapacity) {
+void truck::setTowCapacity(int towCapacity) {
     this->towCapacity = towCapacity;
 }
 
@@ -20,5 +18,3 @@ void truck::displayInfo() const {
     vehicle::displayInfo();
     cout << "Towing Capacity: " << towCapacity << endl;
 }
-
-*/

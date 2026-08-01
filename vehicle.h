@@ -1,17 +1,15 @@
-/*
-
 #ifndef VEHICLE_H
 #define VEHICLE_H
 
 #include<cctype>
 #include<cmath>
-#include <cstdlib>
+#include<cstdlib>
 #include<cstring>
+#include<ctime>
 #include<fstream>
 #include<iomanip>
 #include<iostream>
 #include<string>
-#include <ctime>
 #include<vector>
 using namespace std;
 
@@ -32,5 +30,3 @@ class vehicle {
 };
 
 #endif
-
-*/

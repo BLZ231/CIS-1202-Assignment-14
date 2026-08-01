@@ -1,5 +1,3 @@
-/*
-
 #include "vehicle.h"
 
 vehicle::vehicle(string manufacturer, int yearBuilt) {
@@ -27,5 +25,3 @@ void vehicle::displayInfo() const {
     cout << "Manufacturer: " << manufacturer << endl;
     cout << "Year Built: " << yearBuilt << endl;
 }
-
-*/
